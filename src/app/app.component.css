@@ -1,0 +1,24 @@
+/* Centering the title */
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Adjust as needed */
+  }
+  
+  .title {
+    font-size: 50px; /* Adjust font size */
+    text-align: center;
+    color: #a70c213a; /* Adjust text color */
+    text-shadow: 2px 2px 2px rgba(32, 18, 161, 0.3); /* Add text shadow */
+  }
+  
+  /* Additional effects */
+  .title:hover {
+    color: #3700ff; /* Change text color on hover */
+    transition: color 0.3s ease; /* Add transition effect */
+  }
+  
+  
+
+  
