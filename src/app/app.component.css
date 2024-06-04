@@ -1,4 +1,5 @@
 
+
 .title-container {
     display: flex;
     justify-content: center;
@@ -9,21 +10,23 @@
   .title {
     font-size: 50px; 
     text-align: center;
-    color: #8d0ca7; 
+    color: #560e5f; 
     
      
   }
   
   
   .title:hover {
-    color: #560e5f; 
-    transition: color 0.5s ease; 
+    color: #9e7ca5; 
+    transition: color 0.1s ease; 
   }
 
   .form-group{
     padding-left: 200px;
-    background-color: brown;
+    background-color: rgb(19, 4, 4);
   }
+
+  
   
   
 
