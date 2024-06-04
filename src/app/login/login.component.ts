@@ -17,5 +17,5 @@ throw new Error('Method not implemented.');
 
 
 function login() {
-  throw new Error('Function not implemented.');
+  console.log("done");
 }
