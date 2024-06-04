@@ -1,22 +1,28 @@
-/* Centering the title */
+
 .title-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh; /* Adjust as needed */
+    height: 30vh; 
   }
   
   .title {
-    font-size: 50px; /* Adjust font size */
+    font-size: 50px; 
     text-align: center;
-    color: #a70c213a; /* Adjust text color */
-    text-shadow: 2px 2px 2px rgba(32, 18, 161, 0.3); /* Add text shadow */
+    color: #8d0ca7; 
+    
+     
   }
   
-  /* Additional effects */
+  
   .title:hover {
-    color: #3700ff; /* Change text color on hover */
-    transition: color 0.3s ease; /* Add transition effect */
+    color: #560e5f; 
+    transition: color 0.5s ease; 
+  }
+
+  .form-group{
+    padding-left: 200px;
+    background-color: brown;
   }
   
   
