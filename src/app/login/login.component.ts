@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -8,14 +9,14 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+  constructor(private router: Router) { }
 login() {
-throw new Error('Method not implemented.');
+console.log("done");
 }
  username: string ='';
  password: string='';
-}
+ goToMainPage(): void {
+  this.router.navigate(['/main']);
+}}
 
 
-function login() {
-  console.log("done");
-}
